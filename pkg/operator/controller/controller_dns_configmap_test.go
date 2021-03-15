@@ -57,6 +57,7 @@ bar.com:5353 example.com:5353 {
     forward . /etc/resolv.conf {
         policy sequential
     }
+    bufsize 1232
     cache 900
     reload
 }
